@@ -6,8 +6,8 @@ CONTROLLER_PATH := controller
 TERRAFORM_PATH := terraform
 USERNAME := saulmaldonado
 
-include .env
-export
+# include .env
+# export
 
 .PHONY: build terraform
 

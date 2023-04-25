@@ -17,3 +17,5 @@ sudo apt update
 
 sudo apt-get install terraform
 
+//had to run everything from local gcloud terminal, not the online one.
+//managed dns zone name is duckzone and project id is agones-minecraft-384717 

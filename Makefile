@@ -4,10 +4,8 @@ TAG := $(strip $(shell git describe --tags --exact-match HEAD 2> /dev/null | cut
 
 CONTROLLER_PATH := controller
 TERRAFORM_PATH := terraform
-USERNAME := saulmaldonado
+USERNAME := ntlduckmaster
 
-include .env
-export
 
 .PHONY: build terraform
 

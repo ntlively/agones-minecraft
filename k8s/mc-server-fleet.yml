@@ -20,7 +20,7 @@ spec:
         game: mc
         edition: java
       annotations:
-        external-dns.alpha.kubernetes.io/hostname: <DOMAIN>
+        external-dns.alpha.kubernetes.io/hostname: duckmaster.games
         external-dns.alpha.kubernetes.io/gameserver-service: minecraft
     spec:
       container: mc-server # Minecraft server container name

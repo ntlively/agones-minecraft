@@ -263,7 +263,7 @@ Fleets will deploy and manage a set of `Ready` GameServers that can immediately 
 ```sh
 # replace 'example.com' with the domain of the managed zone
 
-sed 's/<DOMAIN>/example.com/' k8s/mc-server-fleet.yml | kubectl apply -f -
+sed 's/<DOMAIN>/duckmaster.games/' k8s/mc-server-fleet.yml | kubectl apply -f -
 ```
 
 [Full Java server fleet example](./k8s/mc-server-fleet.yml)
